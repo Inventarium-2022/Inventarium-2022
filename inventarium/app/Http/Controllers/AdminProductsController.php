@@ -28,7 +28,6 @@ class AdminProductsController extends Controller
             'description' => 'string|nullable',
         ]);
 
-
         if(!empty($input['cover']) && $input['cover']-> isValid()){
             $file = $input['cover'];
             $path = $file->store('products');

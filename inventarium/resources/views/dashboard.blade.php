@@ -1,7 +1,9 @@
 @extends('layouts.default')
 @section('content') 
 
-<section class = "text-gray-600" >
+<section class = "text-gray-600" 
+style="background-image: url('{{ asset('public/img/inv.logo')}}');"
+>
     <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4">
 @foreach($products as $product)
