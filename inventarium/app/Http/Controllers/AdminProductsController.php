@@ -25,7 +25,7 @@ class AdminProductsController extends Controller
             'price' => 'string|required',
             'stock' => 'integer|nullable',
             'cover' => 'file|nullable',
-            'description0' => 'string|nullable',
+            'description' => 'string|nullable',
         ]);
 
 

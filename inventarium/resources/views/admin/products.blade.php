@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-<section class="t}ext-gray-600">
+<section class="text-gray-600">
     <div class="container px-5 py-24 mx-auto">
         <div class="lg:w-2/3 w-full mx-auto overflow-auto">
             <div class="flex items-center justify-between mb-2">

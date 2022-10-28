@@ -8,7 +8,7 @@
             </div>
 
             <form
-                enctype="multpart/form-data"
+                enctype="multipart/form-data"
                 action="{{route('admin.products.update', $products->id)}}"
                 method="POST">
                 @csrf

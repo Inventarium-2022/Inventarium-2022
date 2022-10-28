@@ -14,7 +14,7 @@
             <div
                 class="container mx-auto flex justify-between items-center p-5 items-center">
                 <a
-                    href="/dashboard"
+                    href="/"
                     class="flex title-font font-medium items-center text-gray-900">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@
                         viewbox="0 0 24 24">
                         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                     </svg>
-                    <span class="ml-3 text-xl">My store</span>
+                    <span class="ml-3 text-xl">Inventarium</span>
                 </a>
                 <div class="flex items-center">
                     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
