@@ -7,7 +7,7 @@
                 <h1 class="text-2xl font-medium title-font mb-2 text-gray-900">Produtos</h1>
                 <a href="{{route('admin.products.create')}}" class="flex ml-auto text-white bg-indigo-500 border-0 py-1.5 px-3 text-sm focus:outline-none hover:bg-indigo-600 rounded">Adicionar</a>
             </div>
-            <table class="table-auto w-full text-left whitespace-no-wrap">
+            <table class="table-auto w-full text-left whitespace-no-wrap border">
                 <thead>
                 <tr>
                     <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">#</th>
@@ -23,7 +23,9 @@
                 <tr @if($loop->even) class="bg-gray-100"@endif>
                     <td class="px-4 py-3">{{$product->id}}</td>
                     <td class="px-4 py-3">
+                        <a href="{{route('products', $product->id)}}">
                         <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="{{ \Illuminate\Support\Facades\Storage::url($product->cover)}}">
+                        </a>
                     </td>
                     <td class="px-4 py-3">{{$product->name}}</td>
                     <td class="px-4 py-3">{{$product->price}}</td>

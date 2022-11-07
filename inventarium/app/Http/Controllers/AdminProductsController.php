@@ -22,6 +22,7 @@ class AdminProductsController extends Controller
     public function update(Request $request, Products $products){
         $input =  $request->validate([
             'name' => 'string|required',
+           // 'categoria' => 'string|required',
             'price' => 'string|required',
             'stock' => 'integer|nullable',
             'cover' => 'file|nullable',
@@ -51,10 +52,11 @@ public function create(){
 
        $input =  $request->validate([
             'name' => 'string|required',
+            //'categoria' => 'string|required',
             'price' => 'string|required',
             'stock' => 'integer|nullable',
             'cover' => 'file|nullable',
-            'description0' => 'string|nullable',
+            'description' => 'string|nullable',
 
 
         ]);

@@ -1,11 +1,37 @@
-body{
-    background-color: yellow;
+.logo{
+    border-radius: 50%;
+    height: 2.25rem;
+    background-color: white;
+    margin-right: 0.75rem;
+}
+.product{
+    background-color: #e7e7e7;
 }
 
-.adminbutton{
-    margin-left: auto;
+.logout{
+    background-color: #FFFFFF;
+    font-size: 14px;
 }
 
-aside{
-    width: 100%;
+.all{
+    background-color: #e7e7e7;
+
 }
+
+
+
+.testbutton {
+    margin-top: 0px;
+    font-family: sans-serif;
+    color: #ffffff!important;
+    font-size: 20px;
+
+    padding: 10px 19px;
+    border-radius: 8px;
+    border: 2px solid #3B82F6;
+    background: #3B82F6;}
+  .testbutton:hover {
+    color: #FFFFFF !important;
+    background: #3B82F6;
+  }
+  

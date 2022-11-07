@@ -21,6 +21,8 @@ class CreateProductsTable extends Migration
             $table->decimal('price')->default('0.00');
             $table->text('description')->nullable();
             $table->integer('stock')->default(0);
+        // $table->string('categoria');
+        //$table->foreign('categoria')->references('categoria')->on('categoria');
             $table->timestamps();
         });
     }

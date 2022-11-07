@@ -36,8 +36,8 @@ Route::post('/admin/products', 'App\Http\Controllers\AdminProductsController@sto
 
 Route::get('/admin/products/{products}/edit', 'App\Http\Controllers\AdminProductsController@edit')->name('admin.products.edit');
 Route::put('/admin/products/{products}', 'App\Http\Controllers\AdminProductsController@update')->name('admin.products.update');
-
 Route::get('/admin/products/{products}/delete', 'App\Http\Controllers\AdminProductsController@destroy')->name('admin.products.destroy');
+
 
 
 require __DIR__.'/auth.php';
