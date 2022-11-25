@@ -19,7 +19,7 @@
                                     <img src="{{URL::asset('img/img3.jpg')}}" alt="img3"></div>
 
                                     <div class="slide">
-                                        <img src="{{URL::asset('img/img4.jpg')}}" alt="img4"></div>
+                                        <img src="{{URL::asset('img/team.jpeg')}}" alt="img4"></div>
 
                                         <div class="navigation-auto">
                                             <div class="auto-btn1"></div>

@@ -62,7 +62,7 @@ public function create(){
         ]);
        if(!empty($input['cover']) && $input['cover']-> isValid()){
             $file = $input['cover'];
-            $path = $file->store('products');
+            $path = $file->store('products'); 
             $input['cover'] = $path;
        }
         Products::create($input);  

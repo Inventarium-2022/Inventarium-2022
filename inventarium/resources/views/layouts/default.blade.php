@@ -72,9 +72,8 @@
                 </div>
                 <button
                     class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
-                <p class="text-gray-500 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center">Bitters chicharrones fanny pack
-                    <br class="lg:block hidden">waistcoat green juice
-                </p>
+                <p class="text-gray-500 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center">
+                    <br class="lg:block hidden"></p>
             </div>
             <span
                 class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
@@ -131,16 +130,6 @@
                 </a>
             </span>
         </div>
-    </div>
-    <div class="bg-gray-100">
-        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                <a
-                    href="https://twitter.com/knyttneve"
-                    class="text-gray-600 ml-1"
-                    target="_blank"
-                    rel="noopener noreferrer"></a>
-            
-            </div>
     </div>
 </footer>
 </body>
